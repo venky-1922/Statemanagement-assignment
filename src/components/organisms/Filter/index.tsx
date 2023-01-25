@@ -1,13 +1,13 @@
 import React from "react";
 import Adjudication from "../../molecules/Adjudication";
 import Status from "../../molecules/Status";
-import {styled} from "@mui/system";
+import { styled } from "@mui/system";
 import theme from "../../../Theme";
-import {Box} from "@mui/material"
+import { Box } from "@mui/material";
 
 interface FilterProps {
-    classFilter?: string;
-    updateStatusArr?: any;
+  classFilter?: string;
+  updateStatusArr?: any;
 }
 
 const Wrapper = styled(Box)`
@@ -34,15 +34,15 @@ const Wrapper = styled(Box)`
 `;
 
 const Filter = ({ classFilter, updateStatusArr }: FilterProps) => {
-    return (
-        <Wrapper className={`filterStyles ${classFilter}`}>
-            <p className="filterPara">Filters</p>
-            <p className='statusPara'>Status</p>
-            <Status handleUpdate={updateStatusArr} />
-            <p className="statusPara">Adjudication</p>
-            <Adjudication />
-        </Wrapper>
-    );
+  return (
+    <Wrapper className={`filterStyles ${classFilter}`}>
+      <p className="filterPara">Filters</p>
+      <p className="statusPara">Status</p>
+      <Status handleUpdate={updateStatusArr} />
+      <p className="statusPara">Adjudication</p>
+      <Adjudication />
+    </Wrapper>
+  );
 };
 
 export default Filter;
