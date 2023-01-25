@@ -1,0 +1,387 @@
+[
+    {
+        "name": "Eliot",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Florida",
+        "date": "7/26/2022"
+    },
+    {
+        "name": "Kally",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Texas",
+        "date": "4/11/2022"
+    },
+    {
+        "name": "Kellby",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "Wisconsin",
+        "date": "11/14/2022"
+    },
+    {
+        "name": "Fanchon",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "Florida",
+        "date": "12/15/2022"
+    },
+    {
+        "name": "Sam",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Georgia",
+        "date": "6/6/2022"
+    },
+    {
+        "name": "Donaugh",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "West Virginia",
+        "date": "2/2/2022"
+    },
+    {
+        "name": "Marty",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "West Virginia",
+        "date": "6/12/2022"
+    },
+    {
+        "name": "Collie",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "Texas",
+        "date": "10/10/2022"
+    },
+    {
+        "name": "Kristofor",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Indiana",
+        "date": "11/24/2022"
+    },
+    {
+        "name": "Royall",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Michigan",
+        "date": "2/1/2022"
+    },
+    {
+        "name": "Sadye",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "Texas",
+        "date": "3/7/2022"
+    },
+    {
+        "name": "Hortense",
+        "adjudication": null,
+        "status": "CLEAR",
+        "location": "District of Columbia",
+        "date": "10/28/2022"
+    },
+    {
+        "name": "Beryl",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "Oregon",
+        "date": "8/6/2022"
+    },
+    {
+        "name": "Nike",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Virginia",
+        "date": "10/28/2022"
+    },
+    {
+        "name": "Davidson",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Washington",
+        "date": "2/23/2022"
+    },
+    {
+        "name": "Daveen",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "Florida",
+        "date": "2/15/2022"
+    },
+    {
+        "name": "Estevan",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Mississippi",
+        "date": "10/28/2022"
+    },
+    {
+        "name": "Adriaens",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "Florida",
+        "date": "8/22/2022"
+    },
+    {
+        "name": "Constantia",
+        "adjudication": null,
+        "status": "CLEAR",
+        "location": "California",
+        "date": "10/24/2022"
+    },
+    {
+        "name": "Brose",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Florida",
+        "date": "7/30/2022"
+    },
+    {
+        "name": "Lauritz",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "Maryland",
+        "date": "3/17/2022"
+    },
+    {
+        "name": "Guinevere",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "District of Columbia",
+        "date": "3/16/2022"
+    },
+    {
+        "name": "Grenville",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "Ohio",
+        "date": "8/6/2022"
+    },
+    {
+        "name": "Vivia",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Virginia",
+        "date": "3/2/2022"
+    },
+    {
+        "name": "Osgood",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Nebraska",
+        "date": "10/10/2022"
+    },
+    {
+        "name": "Jaclin",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "New York",
+        "date": "3/17/2022"
+    },
+    {
+        "name": "Donnie",
+        "adjudication": null,
+        "status": "CONSIDER",
+        "location": "California",
+        "date": "11/15/2022"
+    },
+    {
+        "name": "Cristy",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "Illinois",
+        "date": "10/22/2022"
+    },
+    {
+        "name": "Kylen",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "North Dakota",
+        "date": "1/12/2022"
+    },
+    {
+        "name": "Rosmunda",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Louisiana",
+        "date": "9/17/2022"
+    },
+    {
+        "name": "Jodie",
+        "adjudication": null,
+        "status": "CONSIDER",
+        "location": "Oklahoma",
+        "date": "11/12/2022"
+    },
+    {
+        "name": "Dominga",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Washington",
+        "date": "12/4/2022"
+    },
+    {
+        "name": "Mayne",
+        "adjudication": null,
+        "status": "CONSIDER",
+        "location": "Ohio",
+        "date": "10/18/2022"
+    },
+    {
+        "name": "Anderea",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "Utah",
+        "date": "8/14/2022"
+    },
+    {
+        "name": "Daisey",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "California",
+        "date": "9/8/2022"
+    },
+    {
+        "name": "Regen",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Ohio",
+        "date": "12/10/2022"
+    },
+    {
+        "name": "Anastassia",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Tennessee",
+        "date": "12/14/2022"
+    },
+    {
+        "name": "Bea",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Minnesota",
+        "date": "3/22/2022"
+    },
+    {
+        "name": "Wynn",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "California",
+        "date": "9/26/2022"
+    },
+    {
+        "name": "Mirna",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Texas",
+        "date": "8/25/2022"
+    },
+    {
+        "name": "Vania",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "Ohio",
+        "date": "5/14/2022"
+    },
+    {
+        "name": "Marna",
+        "adjudication": null,
+        "status": "CONSIDER",
+        "location": "California",
+        "date": "1/6/2022"
+    },
+    {
+        "name": "Lewes",
+        "adjudication": null,
+        "status": "CLEAR",
+        "location": "Illinois",
+        "date": "3/17/2022"
+    },
+    {
+        "name": "Leia",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Massachusetts",
+        "date": "11/15/2022"
+    },
+    {
+        "name": "Kathie",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Arizona",
+        "date": "3/3/2022"
+    },
+    {
+        "name": "Eloisa",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Nebraska",
+        "date": "12/30/2022"
+    },
+    {
+        "name": "Nerty",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Pennsylvania",
+        "date": "3/7/2022"
+    },
+    {
+        "name": "Jerrie",
+        "adjudication": null,
+        "status": "CLEAR",
+        "location": "California",
+        "date": "2/26/2022"
+    },
+    {
+        "name": "Dominique",
+        "adjudication": "ENGAGED",
+        "status": "CLEAR",
+        "location": "Arizona",
+        "date": "8/4/2022"
+    },
+    {
+        "name": "Albie",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "Minnesota",
+        "date": "3/21/2022"
+    },
+    {
+        "name": "Wait",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Texas",
+        "date": "3/8/2022"
+    },
+    {
+        "name": "Nickolai",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CONSIDER",
+        "location": "Florida",
+        "date": "2/22/2022"
+    },
+    {
+        "name": "Dennis",
+        "adjudication": "PRE ADVERSE ACTION",
+        "status": "CLEAR",
+        "location": "Texas",
+        "date": "4/15/2022"
+    },
+    {
+        "name": "Ddene",
+        "adjudication": null,
+        "status": "CLEAR",
+        "location": "Louisiana",
+        "date": "6/11/2022"
+    },
+    {
+        "name": "Gaynor",
+        "adjudication": "ENGAGED",
+        "status": "CONSIDER",
+        "location": "Illinois",
+        "date": "8/10/2022"
+    }
+]
