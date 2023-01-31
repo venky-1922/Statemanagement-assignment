@@ -1,5 +1,6 @@
 import React from "react";
-import { Checkbox } from "../../atoms/CheckBox";
+import { Box } from "@mui/material";
+import { Checkbox } from '../../Atoms/CheckBox'
 
 interface StatusProps {
   handleUpdate: any;
@@ -19,7 +20,7 @@ const checkboxStyles = {
 const Status = ({ handleUpdate }: StatusProps) => {
   const statusItems = ["All status", "Clear", "Consider"];
   return (
-    <div>
+    <Box>
       {statusItems.map((item, idx) => (
         <Checkbox
           name={item}
@@ -29,7 +30,7 @@ const Status = ({ handleUpdate }: StatusProps) => {
           handleClick={handleUpdate}
         />
       ))}
-    </div>
+    </Box>
   );
 };
 

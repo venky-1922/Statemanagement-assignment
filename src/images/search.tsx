@@ -1,4 +1,5 @@
 import React from "react";
+import { Box } from "@mui/system";
 
 interface Props {
   css?: string;
@@ -6,7 +7,7 @@ interface Props {
 
 const SearchSvg = ({ css }: Props) => {
   return (
-    <div className={css}>
+    <Box className={css}>
       <svg
         width="20"
         height="20"
@@ -29,7 +30,7 @@ const SearchSvg = ({ css }: Props) => {
           stroke-linejoin="round"
         />
       </svg>
-    </div>
+    </Box>
   );
 };
 

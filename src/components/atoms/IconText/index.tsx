@@ -1,5 +1,6 @@
-import { Typography } from "@mui/material";
 import React from "react";
+import { Typography } from "@mui/material";
+import {Box} from "@mui/material";
 
 interface TextWithIconProps {
   classMainCon?: string;
@@ -35,15 +36,15 @@ const TextWithIcon = ({
   onClick,
 }: TextWithIconProps) => {
   return (
-    <div className={classMainCon} onClick={onClick}>
+    <Box className={classMainCon} onClick={onClick}>
       <Icon className={classIcon} />
       <Typography
-        variant={variant ? variant : "subtitle1"}
+        variant={ variant || "subtitle1"}
         className={classText}
       >
         {text}
       </Typography>
-    </div>
+    </Box>
   );
 };
 

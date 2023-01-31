@@ -1,4 +1,5 @@
 import React from "react";
+
 interface TableContentProps {
   rowClass?: string;
   considerClass?: string;

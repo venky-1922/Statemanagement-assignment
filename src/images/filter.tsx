@@ -1,11 +1,12 @@
 import React from "react";
+import { Box } from "@mui/material";
 interface Props {
   css?: string;
 }
 
 const FilterSvg = ({ css }: Props) => {
   return (
-    <div className={css}>
+    <Box className={css}>
       <svg
         width="20"
         height="20"
@@ -18,7 +19,7 @@ const FilterSvg = ({ css }: Props) => {
           fill="#696A6E"
         />
       </svg>
-    </div>
+    </Box>
   );
 };
 

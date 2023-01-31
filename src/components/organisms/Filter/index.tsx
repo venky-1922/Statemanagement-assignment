@@ -1,9 +1,9 @@
 import React from "react";
-import Adjudication from "../../molecules/Adjudication";
-import Status from "../../molecules/Status";
 import { styled } from "@mui/system";
-import theme from "../../../Theme";
 import { Box } from "@mui/material";
+import theme from "../../../Theme";
+import Adjudication from "../../Molecules/Adjudication";
+import Status from "../../Molecules/Status";
 
 interface FilterProps {
   classFilter?: string;

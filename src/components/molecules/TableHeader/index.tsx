@@ -1,15 +1,15 @@
 import React from "react";
-import { makeStyles } from "mui-styles";
+import makeStyles from "mui-styles/makeStyles";
 import { Typography } from "@mui/material";
 import theme from "../../../Theme";
 import SearchSvg from "../../../images/search";
-import TextField from "../../atoms/TextField";
+import TextField from "../../Atoms/TextField";
 import FilterSvg from "../../../images/filter";
-import TextWithIcon from "../../atoms/TextWithIcon";
+import TextWithIcon from "../../Atoms/IconText";
 import MenuSvg from "../../../images/menu";
 interface TableHeaderProps {
   handleClick: () => any;
-}
+}                                                                                                                                                                                                                                                                                                                                                                         
 
 const useStyles = makeStyles({
   center: {

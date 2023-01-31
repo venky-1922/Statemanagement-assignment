@@ -9,6 +9,6 @@ export interface TextFieldProps {
   css?: {};
 }
 const TextField = (props: TextFieldProps) => {
-  return <input className="inp" style={props.css} {...props} />;
+  return <input className="inp" value="Text" style={props.css} {...props} />;
 };
 export default TextField;

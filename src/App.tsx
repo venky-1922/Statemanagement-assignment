@@ -1,11 +1,9 @@
 import React from 'react';
-import './App.css';
-// import Table from './components/organisms/Table';
-import CandidateTable from './components/pages/candidate table';
+import CandidateTable from './components/Pages/CandidateTable';
 
 function App() {
   return (
-    <CandidateTable></CandidateTable>
+    <CandidateTable />
   );
 }
 

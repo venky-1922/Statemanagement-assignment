@@ -1,12 +1,12 @@
 import React from "react";
-
+import { Box } from "@mui/system";
 interface Props {
   css?: string;
 }
 
 const MenuSvg = ({ css }: Props) => {
   return (
-    <div className={css}>
+    <Box className={css}>
       <svg
         width="20"
         height="20"
@@ -19,7 +19,7 @@ const MenuSvg = ({ css }: Props) => {
           fill="#696A6E"
         />
       </svg>
-    </div>
+    </Box>
   );
 };
 

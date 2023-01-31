@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import theme from "../../../Theme";
-import TableHead from "../../molecules/table head";
-import TableContent from "../Table content";
-import dummyData from "../../../MOCK_DATA.json";
-import Filter from "../Filter";
+import TableContent from "../TableContent";
 import styled from "styled-components";
+import dummyData from "../../../MOCK_DATA.json";
+import theme from "../../../Theme";
+import TableHead from "../../Molecules/TableHead";
+import Filter from "../Filter";
 
 interface TableProps {
   showFilter?: boolean;

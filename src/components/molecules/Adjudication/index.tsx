@@ -1,5 +1,6 @@
 import React from "react";
-import { Checkbox } from "../../atoms/CheckBox";
+import { Box } from "@mui/material";
+import {Checkbox} from '../../Atoms/CheckBox';
 
 const adjudicationItems = ["All", "Engaged", "Pre adverse action"];
 const checkboxStyles = {
@@ -14,7 +15,7 @@ const checkboxStyles = {
 };
 const Adjudication = () => {
   return (
-    <div>
+    <Box>
       {adjudicationItems.map((item, idx) => (
         <Checkbox
           name="adjudication"
@@ -23,7 +24,7 @@ const Adjudication = () => {
           css={checkboxStyles}
         />
       ))}
-    </div>
+    </Box>
   );
 };
 

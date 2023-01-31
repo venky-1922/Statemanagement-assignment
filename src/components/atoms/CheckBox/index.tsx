@@ -1,4 +1,5 @@
 import React from "react";
+import { Box } from "@mui/system";
 import "../../../index.css";
 export interface CheckboxProps {
   name: string;
@@ -23,7 +24,7 @@ export const Checkbox = ({
   handleClick,
 }: CheckboxProps): JSX.Element => {
   return (
-    <div style={{ ...css, ...center }}>
+    <Box style={{ ...css, ...center }}>
       <input
         type="checkbox"
         name={name}
@@ -35,6 +36,6 @@ export const Checkbox = ({
       <label htmlFor={id} style={lableStyles}>
         {text}
       </label>
-    </div>
+    </Box>
   );
 };

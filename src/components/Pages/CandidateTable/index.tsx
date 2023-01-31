@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import TableHeader from "../../molecules/table header";
-import Table from "../../organisms/Table";
 import styled from "styled-components";
+import TableHeader from "../../Molecules/TableHeader";
+import Table from "../../Organisms/Table";
 
 const Wrapper = styled.div`
-  height: 90vh;
+  height: auto;
   width: 100%;
   box-shadow: 0px 4px 28px rgba(45, 45, 47, 0.1);
   border-radius: 6px;
