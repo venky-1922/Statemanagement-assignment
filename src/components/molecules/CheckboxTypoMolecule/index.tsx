@@ -1,8 +1,14 @@
 import React from "react";
 import { Box } from "@mui/material";
-import {Checkbox} from '../../Atoms/CheckBox';
+import { Checkbox } from '../../Atoms/CheckBox'
 
-const adjudicationItems = ["All", "Engaged", "Pre adverse action"];
+interface StatusProps {
+  handleUpdate?: any;
+  Items:string[]; 
+  name:string;
+
+}
+
 const checkboxStyles = {
   fontWeight: "400",
   fontSize: "12px",
@@ -13,19 +19,21 @@ const checkboxStyles = {
   marginLeft: "19px",
   marginBottom: "12px",
 };
-const Adjudication = () => {
+
+const Status = ({ handleUpdate,...props }: StatusProps) => {
   return (
     <Box>
-      {adjudicationItems.map((item, idx) => (
+      {props.Items.map((item:string, idx:number) => (
         <Checkbox
-          name="adjudication"
+          name={props.name}
           id={(idx + 1).toString()}
           text={item}
           css={checkboxStyles}
+          handleClick={handleUpdate}
         />
       ))}
     </Box>
   );
 };
 
-export default Adjudication;
+export default Status;

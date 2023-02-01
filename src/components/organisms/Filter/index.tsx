@@ -2,8 +2,7 @@ import React from "react";
 import { styled } from "@mui/system";
 import { Box } from "@mui/material";
 import theme from "../../../Theme";
-import Adjudication from "../../Molecules/Adjudication";
-import Status from "../../Molecules/Status";
+import Status from "../../Molecules/CheckboxTypoMolecule";
 
 interface FilterProps {
   classFilter?: string;
@@ -30,17 +29,26 @@ const Wrapper = styled(Box)`
         font-weight: 500;
         color: ${theme.palette.grey[200]};
         padding-bottom: 12px;
-    }
+        }
+        & .Adjudication
+        {
+          padding: 0.75rem 1rem;
+          font-weight: 500;
+          color: ${theme.palette.grey[200]};
+          padding-bottom: 12px;
+        }
 `;
 
 const Filter = ({ classFilter, updateStatusArr }: FilterProps) => {
+  const Items = ["All status", "Clear", "Consider"];
+  const adjudicationItems = ["All", "Engaged", "Pre adverse action"];
   return (
     <Wrapper className={`filterStyles ${classFilter}`}>
       <p className="filterPara">Filters</p>
       <p className="statusPara">Status</p>
-      <Status handleUpdate={updateStatusArr} />
-      <p className="statusPara">Adjudication</p>
-      <Adjudication />
+      <Status name="status" Items={Items} handleUpdate={updateStatusArr} />
+      <p className="Adjudication">Adjudication</p>
+      <Status name="Adjudication" Items={adjudicationItems} />
     </Wrapper>
   );
 };

@@ -37,7 +37,7 @@ const useStyles = makeStyles({
     justifyContent: "space-around",
   },
   input: {
-    height: "100%",
+    height: "70%",
     width: "344px",
     padding: "0.25em 2.5em",
     border: `1px solid ${theme.palette.grey[50]}`,
@@ -61,6 +61,7 @@ const useStyles = makeStyles({
     height: "100%",
     width: "90px",
     display: "flex",
+    marginBottom:"20px",
     justifyContent: "center",
     alignItems: "center",
     border: `1px solid ${theme.palette.grey[50]}`,
