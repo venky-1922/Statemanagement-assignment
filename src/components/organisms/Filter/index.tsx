@@ -2,7 +2,7 @@ import React from "react";
 import { styled } from "@mui/system";
 import { Box } from "@mui/material";
 import theme from "../../../Theme";
-import Status from "../../Molecules/CheckboxTypoMolecule";
+import CheckBoxTypoMolecule from "../../Molecules/CheckboxTypoMolecule";
 
 interface FilterProps {
   classFilter?: string;
@@ -46,9 +46,9 @@ const Filter = ({ classFilter, updateStatusArr }: FilterProps) => {
     <Wrapper className={`filterStyles ${classFilter}`}>
       <p className="filterPara">Filters</p>
       <p className="statusPara">Status</p>
-      <Status name="status" Items={Items} handleUpdate={updateStatusArr} />
+      <CheckBoxTypoMolecule name="status" Items={Items} handleUpdate={updateStatusArr} />
       <p className="Adjudication">Adjudication</p>
-      <Status name="Adjudication" Items={adjudicationItems} />
+      <CheckBoxTypoMolecule name="Adjudication" Items={adjudicationItems} />
     </Wrapper>
   );
 };
