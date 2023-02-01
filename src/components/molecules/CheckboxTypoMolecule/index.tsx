@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@mui/material";
 import { Checkbox } from '../../Atoms/CheckBox'
 
-interface StatusProps {
+interface CheckboxTypoMoleculeProps {
   handleUpdate?: any;
   Items:string[]; 
   name:string;
@@ -20,7 +20,7 @@ const checkboxStyles = {
   marginBottom: "12px",
 };
 
-const Status = ({ handleUpdate,...props }: StatusProps) => {
+const CheckBoxTypoMolecule = ({ handleUpdate,...props }: CheckboxTypoMoleculeProps) => {
   return (
     <Box>
       {props.Items.map((item:string, idx:number) => (
@@ -36,4 +36,4 @@ const Status = ({ handleUpdate,...props }: StatusProps) => {
   );
 };
 
-export default Status;
+export default CheckBoxTypoMolecule;
